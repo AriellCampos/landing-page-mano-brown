@@ -102,3 +102,18 @@ nav ul li a {
   text-decoration: none;
   color: #333;
 }
+
+
+/* Style do about section */
+.about {
+  padding: 54px 120px 42px;
+  max-width: 486px;
+}
+
+.about h2 {
+  font-weight: bold;
+  font-size: 64px;
+  color: #25282b;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
