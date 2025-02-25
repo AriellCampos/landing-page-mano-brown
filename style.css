@@ -1,4 +1,10 @@
 
+/* Define color variables */
+:root {
+  --color-light-background: #f9faff;
+  --color-light-gray: #ccc;
+}
+
 body {
   margin: 0;
   background-color:  #f9faff;
@@ -68,7 +74,6 @@ header {
   padding: 6px 12px;
   background-color: transparent;
   color: white;
-  border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
