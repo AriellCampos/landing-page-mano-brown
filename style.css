@@ -169,3 +169,23 @@ nav ul li a {
   transform: translateX(10px); /* Move o botão para a direita */
   transition: transform 0.3s ease-in-out; /* Suaviza o movimento */
 }
+
+/* Styles para a section dos projects */
+.projects h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 36px; /* Ajuste o tamanho conforme necessário */
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.projects h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Distância da linha do texto */
+  left: 50%; /* Alinha a linha no centro */
+  transform: translateX(-50%); /* Ajusta para centralizar perfeitamente */
+  width: 50%; /* Largura da linha */
+  height: 2px; /* Espessura da linha */
+  background-color: black; /* Cor da linha */
+}
