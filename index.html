@@ -46,7 +46,7 @@
       </section>
 
       <section class="projects">
-        <h2>Projetos</h2>
+        <h2 class="underline">Projetos</h2>
 
         <!-- Card 1 -->
         <div class="card">
@@ -69,7 +69,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="card card-reverse" style="flex-direction: row-reverse;">
+        <div class="card card-reverse" style="flex-direction: row-reverse">
           <div class="card-left">
             <h3>Boogie Naipe</h3>
             <p>
@@ -107,33 +107,68 @@
             />
           </div>
         </div>
-
-        <!-- Primeiro Card -->
-        <!-- <div class="card">
-          <div class="card-left">
-            <h2 class="card-title">Mano a Mano</h2>
-            <p class="card-text">
-              Mano a Mano é um podcast brasileiro do gênero sociedade lançado em
-              agosto de 2021. Apresentado pelo cantor e compositor Mano Brown, é
-              uma produção assinada pelo Spotify Studios.
-            </p>
-            <button class="card-button">Ver Projeto</button>
-          </div>
-          <div class="card-right">
-            <img
-              src="/assets/img/mano-a-mano.png"
-              alt="Imagem"
-              class="card-image"
-            />
-          </div>
-        </div> -->
       </section>
 
       <section class="contact">
-        <h2>Contato</h2>
+        <h2 class="underline">Contato</h2>
 
-        AQUI VAI O CONTATO
+        <form action="" method="post" class="form-contact">
+          <div class="form-input">
+            <label for="nome">Nome:</label>
+            <input
+              placeholder="Ex: Mano Brown"
+              required
+              type="text"
+              id="nome"
+              value=""
+            />
+          </div>
+          <div class="form-input">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Ex: email@gmail.com" />
+          </div>
+          <div class="form-input">
+            <label for="msg">Mensagem:</label>
+            <textarea
+              id="msg"
+              placeholder="Ex: Fala Mano, tudo bem?"
+            ></textarea>
+          </div>
+          <div class="button">
+            <button type="submit" class="primary">Enviar</button>
+          </div>
+        </form>
       </section>
+
+      <footer>
+        <div class="icons">
+          <a href=""
+            ><img
+              alt="Instagram"
+              src="assets/img/instagram.png"
+              width="38"
+              height="38"
+            />
+          </a>
+          <a href=""
+            ><img
+              alt="Linkdlin"
+              src="assets/img/instagram.png"
+              width="38"
+              height="38"
+            />
+          </a>
+          <a href=""
+            ><img
+              alt="email"
+              src="assets/img/instagram.png"
+              width="38"
+              height="38"
+            />
+          </a>
+        </div>
+        <p>Mano Brown 2025</p>
+      </footer>
     </main>
   </body>
   <script src="script.js"></script>
